@@ -1,0 +1,430 @@
+/*css reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset end*/
+body{
+	font-family: arial,'Microsoft JhengHei Regular';
+}
+
+.wrap{
+	max-width: 1024px;
+	margin: 0 auto;
+	background: #efe9e7;
+}
+
+.clearfix {
+	clear: both;
+}
+.header{
+	width: 1024px;
+	height: 420px;	
+	background-image: url(../img/header_desktop.png);
+}
+
+.menu{
+	height: 56px;
+	background:#BF000000;
+	background-color: rgba(0,0,0,0.75);
+}
+
+.menu h1{
+	float: left;
+	padding-top: 16px;
+	padding-left: 42px;
+}
+
+.menu h1 a{
+	background-image: url(../img/logo_w@svg.svg);
+	width: 120px;
+	height: 24px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li a {
+	color: #fff;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+	font-size: 16px;
+	padding-top: 18px;
+	padding-bottom: 17px;
+}
+
+.menu li a:hover{
+	background: #fff;
+	font-weight: bold;
+	color: #000;
+}
+
+.banner {	
+	background: #000000;
+	background-color: rgba(0,0,0,0.35);
+	width: 460px;
+	height: 152px;
+	margin-top: 67px;
+	margin-left: 295px;
+	color: #fff;
+}
+
+.banner h2{
+	font-size: 36px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.banner p{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 16px;
+	line-height: 28px;
+	letter-spacing: 5px;
+}
+
+.special h2 {
+	font-size: 20px;
+	color: #3D1101;
+	line-height: 32px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.special h2 span{
+	display: block;
+	position: relative;	
+}
+
+.special h2 span:before , .special h2 span:after{
+	position: absolute;
+	content: '';
+	width: 122px;
+	height: 1px;
+	align-items: center;
+	background: #979797;
+}
+
+.special h2 span:before{
+	left: 25%;
+}
+
+.special h2 span:after{
+	right: 25%;
+}
+
+.special_inf {
+	display: inline-block;
+}
+
+.special_inf li {
+	width: 27%;
+	float: left;
+	margin-left: 60px;
+}
+
+.special_inf img{
+	width: 200px;
+	height: 200px;
+	border-radius: 110px;
+	margin-left: 22px;
+	padding: 10px;
+}
+
+.special_inf h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #3D1101;
+	text-align: center;
+}
+
+.special_inf span{
+	color: #3D1101;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.chef{
+	background: #3D1101;
+	height: 460px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.chef img{
+	width: 470px;
+	height: 460px;
+	padding-left: 42px;	
+	padding-right: 25px;
+	float: left;
+}
+
+.chef h3 {
+	display: block;
+	font-size: 20px;
+	color: #EFE9E7;
+	line-height: 32px;
+	padding-top: 81px;
+}
+
+.chef span{
+	display: block;
+	font-size: 16px;
+	color: #EFE9E7;
+	margin-top: 5px;
+}
+
+.chef p{
+	display: block;
+	font-size: 16px;
+	color: #EFE9E7;
+	padding-right: 77px;
+}
+
+.impression h2{
+	font-size: 24px;
+	color: #3D1101;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.impression li{
+	width: 28%;
+	float: left;
+	margin-left: 35px;
+	margin-bottom: 35px;
+}
+
+
+.impression img{
+	width: 67px;
+	height: 67px;
+	border-radius: 100px;
+	float: left;
+}
+
+.impression h3{
+	float: left;
+	font-size: 18px;
+	color: #3D1101;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 10px;
+}
+
+.impression p{
+	float: left;
+	font-size: 16px;
+	color: #3D1101;
+	line-height: 24px;
+	padding-left: 77px;
+}
+
+.impression span{
+	float: right;
+	font-size: 16px;
+	color: rgba(61,17,0,0.75);
+	line-height: 24px;
+}
+
+.form{
+	height: 588px;
+	background: #FAFAFA;
+	background-color: rgba(250,250,250,0.70);
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.form h2 {
+	padding-top: 50px;
+	padding-bottom: 38px;
+	font-size: 24px;
+	color: #3D1101;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.form img{
+	padding-left: 42px;
+	float: left;
+}
+
+.form_inp {
+	float: left;
+	padding-left: 25px;
+	line-height: 20px;
+
+}
+
+.form_inp p{
+	color: #3D1101;
+	margin-bottom: 10px;
+}
+
+.form_inp input{
+	height: 30px;
+	width: 450px;
+	font-size: 16px;
+	color: #4A4A4A;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: inset 0px 1px 0px 0px #ECECEC;
+	border-radius: 3px;
+}
+
+.form_inp_v input{
+	width: 16px;
+	height: 16px;
+}
+
+.form_inp_v p{
+	color: #3D1101;
+	display: inline-block;
+}
+
+.form_btn_del {
+	margin-left: 830px;
+	float: left;
+	height: 32px;
+	width: 70px;
+	font-size: 14px;
+	color: #fff;
+	background: #000;
+	background-color: rgba(0,0,0,0.35);
+	border-radius: 3px;
+	border:1px #000 none;
+}
+
+.form_btn_save{
+	float: left;
+	height: 32px;
+	width: 70px;
+	margin-left: 11px;
+	font-size: 14px;
+	background: #F56C23;
+	border-radius: 3px;
+	border:1px #F56C23 none;
+}
+
+.form_btn_del:hover ,.form_btn_save:hover {
+	background: red;
+	font-weight: bold;
+	color: #fff;
+}
+
+.footer ul{
+	display: inline-block;
+}
+.footer li {
+	float: left;
+	padding-bottom: 30px;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.about ,.contact {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.footer h2{
+	float: left;
+	font-size: 24px;
+	color: #3D1101;
+	margin-bottom: 16px;
+}
+
+.footer span {
+	float: left;
+	font-size: 16px;
+	color: #3D1101;
+}
+
+.logo img {
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.logo_fntw {
+	font-size: 36px;
+	padding-top: 20px;
+	float: right;
+	padding-right: 20px;
+}
+
+.fa-google-plus-square{
+	color: #DB4437;
+}
+
+.fa-twitter-square {
+	color: #41ABE1;
+}
+
+.fa-facebook-square {
+	color:#3A5795;
+}
